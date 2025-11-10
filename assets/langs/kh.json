@@ -1,0 +1,85 @@
+{
+  "auth": {
+    "label": "ការផ្ទៀងផ្ទាត់អត្តសញ្ញាណ",
+    "sign_in": "ចូលប្រើប្រាស់",
+    "login": "ចូលគណនី",
+    "sign_out": "ចាកចេញ",
+    "register": "ចុះឈ្មោះ",
+    "email": "អ៊ីមែល",
+    "password": "ពាក្យសម្ងាត់",
+    "forgot_password": "ភ្លេចពាក្យសម្ងាត់?",
+    "reset_password": "កំណត់ពាក្យសម្ងាត់ឡើងវិញ",
+    "confirm_password": "បញ្ជាក់ពាក្យសម្ងាត់",
+    "remember_me": "ចងចាំខ្ញុំ",
+    "full_name": "ឈ្មោះពេញ",
+    "register_now": "ចុះឈ្មោះឥឡូវនេះ",
+    "login_now": "ចូលឥឡូវនេះ",
+    "already_have_account": "មានគណនីរួចហើយ?",
+    "dont_have_account": "មិនទាន់មានគណនីទេ?",
+    "or_register_with": "ឬចុះឈ្មោះជាមួយ",
+    "or_signin_with": "ឬចូលប្រើជាមួយ",
+    "lets_get_you_signin": "ចូលប្រើប្រាស់គណនីរបស់អ្នក!",
+    "lets_get_you_register": "ចុះឈ្មោះគណនីថ្មីរបស់អ្នក!"
+  },
+  "home": {
+    "label": "ទំព័រដើម",
+    "good_morning": "អរុណសួស្តី",
+    "good_afternoon": "ទិវាសួស្តី",
+    "good_evening": "ល្ងាចសួស្តី",
+    "good_night": "រាត្រីសួស្តី",
+    "welcome_back": "សូមស្វាគមន៍ការត្រលប់មកវិញ!",
+    "search": "ស្វែងរក...",
+    "new_in": "ថ្មីៗ",
+    "frequently_order": "ការបញ្ជាទិញញឹកញាប់"
+  },
+  "menu": {
+    "label": "ម៉ឺនុយ",
+    "categories": "ប្រភេទ",
+    "all": "ទាំងអស់",
+    "favorites": "ចំណូលចិត្ត",
+    "popular": "ពេញនិយម",
+    "recommended": "ស្នើសុំអោយប្រើ"
+  },
+  "favorites": {
+    "label": "ចំណូលចិត្ត",
+    "no_favorites": "មិនទាន់មានរបស់ចូលចិត្តទេ។"
+  },
+  "profile": {
+    "label": "ប្រវត្តិរូប",
+    "account_details": "ព័ត៌មានគណនី",
+    "payment_details": "ព័ត៌មានបង់ប្រាក់",
+    "order_history": "ប្រវត្តិការបញ្ជាទិញ",
+    "rewards": "រង្វាន់",
+    "student_discount": "បញ្ចុះតម្លៃសិស្ស",
+    "notifications": "ការជូនដំណឹង",
+    "receive_notifications": "ទទួលការជូនដំណឹង",
+    "share_location_data": "ចែករំលែកទីតាំង",
+    "other": "ផ្សេងទៀត",
+    "location": "ទីតាំង",
+    "currency": "រូបិយប័ណ្ណ",
+    "edit_profile": "កែប្រែប្រវត្តិរូប",
+    "settings": {
+      "label": "ការកំណត់",
+      "language": {
+        "label": "ភាសា",
+        "kh": "ភាសាខ្មែរ",
+        "en": "អង់គ្លេស",
+        "fr": "បារាំង",
+        "es": "អេស្ប៉ាញ"
+      },
+      "privacy_policy": "គោលការណ៍ភាពឯកជន",
+      "terms_of_service": "លក្ខខណ្ឌសេវាកម្ម"
+    },
+    "logout": "ចាកចេញ"
+  },
+  "cart": {
+    "label": "រទេះទំនិញ",
+    "your_cart_is_empty": "រទេះទំនិញរបស់អ្នកទទេ។",
+    "my_cart": "រទេះទំនិញរបស់ខ្ញុំ",
+    "promotion_code": "កូដបញ្ចុះតម្លៃ",
+    "apply": "អនុវត្ត",
+    "discount": "ការបញ្ចុះតម្លៃ",
+    "total": "សរុប",
+    "checkout": "ទូទាត់"
+  }
+}

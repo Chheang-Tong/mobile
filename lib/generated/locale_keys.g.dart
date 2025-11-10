@@ -1,0 +1,81 @@
+// DO NOT EDIT. This is code generated via package:easy_localization/generate.dart
+
+// ignore_for_file: constant_identifier_names
+
+abstract class  LocaleKeys {
+  static const auth_label = 'auth.label';
+  static const auth_sign_in = 'auth.sign_in';
+  static const auth_login = 'auth.login';
+  static const auth_sign_out = 'auth.sign_out';
+  static const auth_register = 'auth.register';
+  static const auth_email = 'auth.email';
+  static const auth_password = 'auth.password';
+  static const auth_forgot_password = 'auth.forgot_password';
+  static const auth_reset_password = 'auth.reset_password';
+  static const auth_confirm_password = 'auth.confirm_password';
+  static const auth_remember_me = 'auth.remember_me';
+  static const auth_full_name = 'auth.full_name';
+  static const auth_register_now = 'auth.register_now';
+  static const auth_login_now = 'auth.login_now';
+  static const auth_already_have_account = 'auth.already_have_account';
+  static const auth_dont_have_account = 'auth.dont_have_account';
+  static const auth_or_register_with = 'auth.or_register_with';
+  static const auth_or_signin_with = 'auth.or_signin_with';
+  static const auth_lets_get_you_signin = 'auth.lets_get_you_signin';
+  static const auth_lets_get_you_register = 'auth.lets_get_you_register';
+  static const auth = 'auth';
+  static const home_label = 'home.label';
+  static const home_good_morning = 'home.good_morning';
+  static const home_good_afternoon = 'home.good_afternoon';
+  static const home_good_evening = 'home.good_evening';
+  static const home_good_night = 'home.good_night';
+  static const home_welcome_back = 'home.welcome_back';
+  static const home_search = 'home.search';
+  static const home_new_in = 'home.new_in';
+  static const home_frequently_order = 'home.frequently_order';
+  static const home = 'home';
+  static const menu_label = 'menu.label';
+  static const menu_categories = 'menu.categories';
+  static const menu_all = 'menu.all';
+  static const menu_favorites = 'menu.favorites';
+  static const menu_popular = 'menu.popular';
+  static const menu_recommended = 'menu.recommended';
+  static const menu = 'menu';
+  static const favorites_label = 'favorites.label';
+  static const favorites_no_favorites = 'favorites.no_favorites';
+  static const favorites = 'favorites';
+  static const profile_label = 'profile.label';
+  static const profile_account_details = 'profile.account_details';
+  static const profile_payment_details = 'profile.payment_details';
+  static const profile_order_history = 'profile.order_history';
+  static const profile_rewards = 'profile.rewards';
+  static const profile_student_discount = 'profile.student_discount';
+  static const profile_notifications = 'profile.notifications';
+  static const profile_receive_notifications = 'profile.receive_notifications';
+  static const profile_share_location_data = 'profile.share_location_data';
+  static const profile_location = 'profile.location';
+  static const profile_currency = 'profile.currency';
+  static const profile_edit_profile = 'profile.edit_profile';
+  static const profile_settings_label = 'profile.settings.label';
+  static const profile_settings_language_label = 'profile.settings.language.label';
+  static const profile_settings_language_kh = 'profile.settings.language.kh';
+  static const profile_settings_language_en = 'profile.settings.language.en';
+  static const profile_settings_language_fr = 'profile.settings.language.fr';
+  static const profile_settings_language_es = 'profile.settings.language.es';
+  static const profile_settings_language = 'profile.settings.language';
+  static const profile_settings_privacy_policy = 'profile.settings.privacy_policy';
+  static const profile_settings_terms_of_service = 'profile.settings.terms_of_service';
+  static const profile_settings = 'profile.settings';
+  static const profile_logout = 'profile.logout';
+  static const profile = 'profile';
+  static const cart_label = 'cart.label';
+  static const cart_your_cart_is_empty = 'cart.your_cart_is_empty';
+  static const cart_my_cart = 'cart.my_cart';
+  static const cart_promotion_code = 'cart.promotion_code';
+  static const cart_apply = 'cart.apply';
+  static const cart_discount = 'cart.discount';
+  static const cart_total = 'cart.total';
+  static const cart_checkout = 'cart.checkout';
+  static const cart = 'cart';
+
+}

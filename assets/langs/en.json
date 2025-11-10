@@ -1,0 +1,85 @@
+{
+  "auth": {
+    "label": "Auth",
+    "sign_in": "Sign In",
+    "login": "Log In",
+    "sign_out": "Sign Out",
+    "register": "Register",
+    "email": "Email",
+    "password": "Password",
+    "forgot_password": "Forgot Password?",
+    "reset_password": "Reset Password",
+    "confirm_password": "Confirm Password",
+    "remember_me": "Remember Me",
+    "full_name": "Full Name",
+    "register_now": "Register Now",
+    "login_now": "LogIn Now",
+    "already_have_account": "Already have an account?",
+    "dont_have_account": "Don't have an account?",
+    "or_register_with": "Or register with",
+    "or_signin_with": "Or sign in with",
+    "lets_get_you_signin": "Let's get you signed in!",
+    "lets_get_you_register": "Let's get you registered!"
+  },
+  "home": {
+    "label": "Home",
+    "good_morning": "Good Morning",
+    "good_afternoon": "Good Afternoon",
+    "good_evening": "Good Evening",
+    "good_night": "Good Night",
+    "welcome_back": "Welcome Back!",
+    "search": "Search...",
+    "new_in": "New In",
+    "frequently_order": "Frequently Order"
+  },
+  "menu": {
+    "label": "Menu",
+    "categories": "Categories",
+    "all": "All",
+    "favorites": "Favorites",
+    "popular": "Popular",
+    "recommended": "Recommended"
+  },
+  "favorites": {
+    "label": "Favorites",
+    "no_favorites": "No favorites added yet."
+  },
+  "profile": {
+    "label": "Profile",
+    "account_details": "Account Details",
+    "payment_details": "Payment Details",
+    "order_history": "Order History",
+    "rewards": "Rewards",
+    "student_discount": "Student Discount",
+    "notifications": "Notifications",
+    "receive_notifications": "Receive Notifications",
+    "share_location_data": "Share Location Data",
+    "other": "Other",
+    "location": "Location",
+    "currency": "Currency",
+    "edit_profile": "Edit Profile",
+    "settings": {
+      "label": "Settings",
+      "language": {
+        "label": "Language",
+        "kh": "ភាសាខ្មែរ",
+        "en": "English",
+        "fr": "Français",
+        "es": "Español"
+      },
+      "privacy_policy": "Privacy Policy",
+      "terms_of_service": "Terms of Service"
+    },
+    "logout": "Logout"
+  },
+  "cart": {
+    "label": "Cart",
+    "your_cart_is_empty": "Your cart is empty.",
+    "my_cart": "My Cart",
+    "promotion_code": "Promotion Code",
+    "apply": "Apply",
+    "discount": "Discount",
+    "total": "Total",
+    "checkout": "Checkout"
+  }
+}
