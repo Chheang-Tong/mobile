@@ -1,4 +1,5 @@
 export 'auth/auth.dart';
+export 'bottom_navbar/bottom_navbar.dart';
 export 'cart/cart.dart';
 export 'favorite/favorite.dart';
 export 'home/home.dart';

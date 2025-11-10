@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
-import 'package:mobile/core/core.dart';
 
-class SplashScreen extends StatefulWidget {
-  const SplashScreen({super.key});
+import '../../../core/core.dart';
+
+class WelcomeScreen extends StatefulWidget {
+  const WelcomeScreen({super.key});
 
   @override
-  State<SplashScreen> createState() => _SplashScreenState();
+  State<WelcomeScreen> createState() => _WelcomeScreenState();
 }
 
-class _SplashScreenState extends State<SplashScreen> {
+class _WelcomeScreenState extends State<WelcomeScreen> {
   @override
   Widget build(BuildContext context) {
     Size size = MediaQuery.of(context).size;
@@ -26,6 +27,7 @@ class _SplashScreenState extends State<SplashScreen> {
               width: size.width,
               height: size.height,
               decoration: BoxDecoration(
+                // color: Colors.teal,
                 image: DecorationImage(
                   image: AssetImage('assets/images/no_background.png'),
                 ),
