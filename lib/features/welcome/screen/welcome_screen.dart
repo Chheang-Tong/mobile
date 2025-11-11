@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../core/core.dart';
 import '../../feature.dart';
@@ -54,7 +55,13 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                 ),
                 Spacer(),
                 ElevatedButton(
-                  onPressed: () {},
+                  onPressed: () async {
+                    await Get.find<SharedPreferences>()
+                        .setBool(SharedPreferenceHelper.welcomeKey, true)
+                        .whenComplete(() {
+                          Get.offAllNamed(Routes.bottomNavbar);
+                        });
+                  },
                   style: ElevatedButton.styleFrom(
                     minimumSize: Size(double.infinity, 50),
                     shape: RoundedRectangleBorder(
