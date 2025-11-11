@@ -7,6 +7,7 @@ export 'routes/routes.dart';
 // service
 export 'service/di_service.dart';
 export 'service/biometric_service.dart';
+export 'service/api_service.dart';
 // utils
 export 'utils/color_resource.dart';
 export 'utils/local_string.dart';

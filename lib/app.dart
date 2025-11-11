@@ -78,6 +78,7 @@ class MyApp extends StatelessWidget {
             debugShowCheckedModeBanner: Env.isDebugging,
             initialRoute: Routes.splashScreen,
             getPages: Routes().getPages,
+            transitionDuration: Duration(milliseconds: 250),
             translations: Messages(languages: languages),
             supportedLocales: const [Locale('en', 'US'), Locale('km', 'KH')],
             localizationsDelegates: [

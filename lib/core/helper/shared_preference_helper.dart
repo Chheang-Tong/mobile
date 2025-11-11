@@ -2,7 +2,7 @@ class SharedPreferenceHelper {
   static const String accessTokenKey = 'access_token';
   static const String refreshTokenKey = 'refresh_token';
   static const String rememberMeKey = 'remember me';
-  static const String onboardKey = 'onboardKey';
+  static const String welcomeKey = 'welcomeKey';
 
   static const String userIdKey = 'user_id';
   static const String hasNewNotificationKey = 'new-notification-key';

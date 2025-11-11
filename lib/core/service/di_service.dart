@@ -13,6 +13,7 @@ Future<Map<String, Map<String, String>>> init() async {
     ..lazyPut<LocalizationController>(
       () => LocalizationController(sharedPreferences: Get.find()),
     )
+    ..lazyPut<SplashController>(() => SplashController(pref: Get.find()))
     ..lazyPut<BiometricService>(() => BiometricService(), fenix: true)
     ..lazyPut<ThemeController>(() => ThemeController(), fenix: true);
 

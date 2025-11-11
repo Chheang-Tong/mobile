@@ -7,3 +7,4 @@ export 'menu/menu.dart';
 export 'notification/notification.dart';
 export 'profile/profile.dart';
 export 'splash/splash.dart';
+export 'welcome/welcome.dart';

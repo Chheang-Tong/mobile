@@ -3,6 +3,7 @@ import '../../features/feature.dart';
 
 class Routes {
   static const String splashScreen = "/splash_screen";
+  static const String welcomeScreen = "/welcome_screen";
   static const String signin = "/sign_in";
   static const String signup = "/sign_up";
   static const String register = "/register";
@@ -19,6 +20,7 @@ class Routes {
   static const String orderConfirmation = "/order_confirmation";
   List<GetPage> getPages = [
     GetPage(name: splashScreen, page: () => const SplashScreen()),
+    GetPage(name: welcomeScreen, page: () => const WelcomeScreen()),
     GetPage(name: signin, page: () => const SignInScreen()),
     GetPage(name: register, page: () => const RegisterScreen()),
     GetPage(name: bottomNavbar, page: () => const BottomNavBar()),
