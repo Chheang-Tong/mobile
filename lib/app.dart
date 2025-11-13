@@ -20,7 +20,7 @@ void main() async {
         initializeDateFormatting('en'),
       ]);
       if (Env.shouldShowApiLog) {
-        debugPrint(Env.name);
+        debugPrint(Env.appName);
       }
       FlutterError.onError = (FlutterErrorDetails details) {
         FlutterError.presentError(details);

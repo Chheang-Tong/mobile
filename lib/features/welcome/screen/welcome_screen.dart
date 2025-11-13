@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import '../../../core/core.dart';
-import '../../feature.dart';
 
 class WelcomeScreen extends StatefulWidget {
   const WelcomeScreen({super.key});
@@ -59,7 +58,7 @@ class _WelcomeScreenState extends State<WelcomeScreen> {
                     await Get.find<SharedPreferences>()
                         .setBool(SharedPreferenceHelper.welcomeKey, true)
                         .whenComplete(() {
-                          Get.offAllNamed(Routes.bottomNavbar);
+                          Get.offAllNamed(Routes.signin);
                         });
                   },
                   style: ElevatedButton.styleFrom(

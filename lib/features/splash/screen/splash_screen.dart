@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:mobile/core/core.dart';
 
 import '../../feature.dart';
 

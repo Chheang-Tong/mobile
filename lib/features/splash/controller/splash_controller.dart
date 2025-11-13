@@ -20,7 +20,7 @@ class SplashController extends GetxController {
       });
     } else {
       Future.delayed(Duration(seconds: 1), () {
-        Get.offAllNamed(Routes.bottomNavbar);
+        Get.offAllNamed(Routes.signin);
       });
     }
   }
